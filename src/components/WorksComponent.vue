@@ -9,27 +9,27 @@
 		<carousel :autoplay="true" :autoplayTimeout="3000" :loop="true" :perPage="1">
 			<slide class="slide">
 				<a href="https://github.com/ducthang-vu/BoolBnB">
-					<img src="@/assets/boolbnb1.png" alt="boolbnb" />
+					<img src="@/assets/boolbnb_small.png" alt="boolbnb" />
 				</a>
 			</slide>
 			<slide class="slide">
 				<a href="https://github.com/ducthang-vu/BoolBnB">
-					<img src="@/assets/boolbnb2.png" alt="boolbnb" />
+					<img src="@/assets/boolbnb2_small.png" alt="boolbnb" />
 				</a>
 			</slide>
 			<slide class="slide">
 				<a href="https://github.com/RiccardoMurru/ajax-ex-boolflix">
-					<img src="@/assets/boolflix.png" alt="boolflix" />
+					<img src="@/assets/boolflix_small.png" alt="boolflix" />
 				</a>
 			</slide>
 			<slide class="slide">
 				<a href="https://github.com/RiccardoMurru/js-html-css-boolzap">
-					<img src="@/assets/boolzapp.png" alt="boolzapp" />
+					<img src="@/assets/boolzapp_small.png" alt="boolzapp" />
 				</a>
 			</slide>
 			<slide class="slide">
 				<a href="https://github.com/RiccardoMurru/html-css-spotifyweb">
-					<img src="@/assets/spotify.png" alt="spotify" />
+					<img src="@/assets/spotify_small.png" alt="spotify" />
 				</a>
 			</slide>
 		</carousel>

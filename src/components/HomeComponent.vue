@@ -2,7 +2,7 @@
 	<main>
 		<div class="heading">
 			<h1>Qualcosa su di me</h1>
-			<img class="avatar" src="@/assets/linkedin_profile.jpg" alt="riccardo murru" />
+			<img class="avatar" src="@/assets/linkedin_profile_pic.jpg" alt="riccardo murru" />
 		</div>
 		<p>
 			Sono un full stack web developer con una forte passione per il mondo digitale,
