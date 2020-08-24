@@ -10,13 +10,10 @@
 					Home
 				</vs-navbar-item>
 				<vs-navbar-item to="/works" :active="active == 'works'" id="works">
-					Works
+					Portfolio
 				</vs-navbar-item>
-				<vs-navbar-item :active="active == 'contacts'" id="contacts">
-					Contacts
-				</vs-navbar-item>
-				<vs-navbar-item :active="active == 'cv'" id="cv">
-					CV
+				<vs-navbar-item to="/contacts" :active="active == 'contacts'" id="contacts">
+					Contatti
 				</vs-navbar-item>
 			</template>
 			<vs-button class="hamburger" dark @click="activeSidebar = !activeSidebar"
@@ -45,19 +42,13 @@
 				<template #icon>
 					<i class="fas fa-laptop-code"></i>
 				</template>
-				Works
+				Portfolio
 			</vs-sidebar-item>
-			<vs-sidebar-item id="contacts">
+			<vs-sidebar-item to="/contacts" id="contacts">
 				<template #icon>
 					<i class="far fa-address-card"></i>
 				</template>
-				Contacts
-			</vs-sidebar-item>
-			<vs-sidebar-item id="curriculum">
-				<template #icon>
-					<i class="far fa-file-alt"></i>
-				</template>
-				CV
+				Contatti
 			</vs-sidebar-item>
 		</vs-sidebar>
 	</header>
