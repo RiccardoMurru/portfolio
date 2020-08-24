@@ -35,7 +35,7 @@ body {
 		max-width: 1140px;
 		margin: 0 auto;
 		main {
-			flex-grow: 1;
+			max-width: 100%;
 			padding: 4rem 1.5rem;
 		}
 	}

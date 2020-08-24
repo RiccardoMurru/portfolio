@@ -1,6 +1,9 @@
 <template>
 	<main>
-		<h1>Qualcosa su di me</h1>
+		<div class="heading">
+			<h1>Qualcosa su di me</h1>
+			<img class="avatar" src="@/assets/linkedin_profile.jpg" alt="riccardo murru" />
+		</div>
 		<p>
 			Sono un full stack web developer con una forte passione per il mondo digitale,
 			particolarmente affascinato dalla costante ed esponenziale evoluzione delle soluzioni e
@@ -42,6 +45,17 @@ export default {
 </script>
 
 <style scoped>
+.heading {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+.avatar {
+	width: 200px;
+	height: 200px;
+	clip-path: circle(50% at 50% 50%);
+}
+
 p {
 	line-height: 1.5em;
 	text-align: justify;
@@ -57,9 +71,22 @@ h2 {
 	gap: 1rem;
 	justify-items: center;
 }
-img {
+img:not(.avatar) {
 	/* justify-self: center; */
 	width: 100px;
 	height: 100px;
+}
+@media (min-width: 576px) {
+	.heading {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: start;
+	}
+	h1 {
+		align-self: end;
+	}
+	.avatar {
+		justify-self: center;
+	}
 }
 </style>

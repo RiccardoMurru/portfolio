@@ -50,7 +50,7 @@ export default {
 
 <style lang="scss" scoped>
 .slide {
-	max-width: 100%;
+	width: 100%;
 	padding: 5%;
 	border: 1px solid black;
 	img {
