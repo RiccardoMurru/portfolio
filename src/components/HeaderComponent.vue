@@ -31,12 +31,11 @@
 			<template #logo>
 				<img class="logo" src="@/assets/logo.png" alt="riccardo murru" />
 			</template>
-			<vs-sidebar-item to="/" id="home">
+			<vs-sidebar-item class="sidebar-item" to="/" id="home">
 				<template #icon>
 					<i class="fas fa-home"></i>
 				</template>
 				Home
-				<!-- <router-link to="/">Home</router-link> -->
 			</vs-sidebar-item>
 			<vs-sidebar-item to="/works" id="works">
 				<template #icon>
@@ -74,6 +73,7 @@ export default {
 }
 .hamburger {
 	color: #eee;
+	font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
