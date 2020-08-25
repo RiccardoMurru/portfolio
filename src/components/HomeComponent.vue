@@ -72,7 +72,6 @@ h2 {
 	justify-items: center;
 }
 img:not(.avatar) {
-	/* justify-self: center; */
 	width: 100px;
 	height: 100px;
 }
