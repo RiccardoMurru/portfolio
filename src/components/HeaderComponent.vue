@@ -65,6 +65,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.navbar {
+	max-width: 1400px;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
 .logo {
 	width: 30px;
 }
