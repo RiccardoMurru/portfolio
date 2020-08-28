@@ -88,4 +88,20 @@ img:not(.avatar) {
 		justify-self: center;
 	}
 }
+@media (min-width: 576px) {
+	h1 {
+		grid-column: 1/3;
+	}
+	.avatar {
+		grid-column: 3;
+	}
+}
+@media (min-width: 992px) {
+	h1 {
+		grid-column: 1;
+	}
+	.avatar {
+		grid-column: 2;
+	}
+}
 </style>
